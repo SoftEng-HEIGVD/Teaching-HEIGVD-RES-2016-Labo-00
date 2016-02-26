@@ -1,3 +1,4 @@
+/* Fabien Franchini */
 package ch.heigvd.res.lab00;
 
 public class Trumpet implements IInstrument {
