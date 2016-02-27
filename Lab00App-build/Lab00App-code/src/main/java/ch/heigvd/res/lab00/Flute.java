@@ -1,14 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Author:            Rosanne Combremont, HEIG-VD
+ * Creation:          27.02.16
+ * Last modification: 27.02.16
  */
 package ch.heigvd.res.lab00;
 
-/**
- *
- * @author rosanne
- */
+
 public class Flute implements IInstrument {
     private String sound;
     private int volume;
