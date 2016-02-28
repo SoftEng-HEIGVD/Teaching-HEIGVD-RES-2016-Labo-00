@@ -7,7 +7,7 @@ package ch.heigvd.res.lab00;
 
 /**
  *
- * @author Kevin
+ * @author Kevin Ponce
  */
 public interface IInstrument {
     

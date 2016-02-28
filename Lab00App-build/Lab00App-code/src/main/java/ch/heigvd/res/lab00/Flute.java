@@ -8,7 +8,7 @@ package ch.heigvd.res.lab00;
 
 /**
  *
- * @author Kevin
+ * @author Kevin Ponce
  */
 public class Flute implements IInstrument{
     
@@ -17,7 +17,7 @@ public class Flute implements IInstrument{
     }   
    
     public String play(){
-        return "";
+        return "po";
     }
     
     public int getSoundVolume(){
