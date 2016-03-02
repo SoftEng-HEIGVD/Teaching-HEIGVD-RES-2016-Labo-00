@@ -10,7 +10,7 @@ package ch.heigvd.res.lab00;
  * @author Lucie
  */
 public class Flute implements IInstrument{
-   public String play(){return "Tiiiiiii";}
+   public String play(){return "trilili";}
    public int getSoundVolume(){return 1;}
    public String getColor(){return "brown";}
 }
