@@ -1,3 +1,4 @@
+.DS_Store
 test-results.json
 
 *.class
@@ -14,3 +15,8 @@ test-results.json
 hs_err_pid*
 /Lab00App-build/Lab00App-code/target/
 /Lab00App-build/Lab00App-tests/target/
+
+# Editor stuff
+*.swp
+*.iml
+.idea
