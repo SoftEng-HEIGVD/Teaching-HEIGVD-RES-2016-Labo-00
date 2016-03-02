@@ -3,7 +3,7 @@ package ch.heigvd.res.lab00;
 public class Flute implements IInstrument {
     @Override
     public String play() {
-        return "fouiiit";
+        return "trilili";
     }
 
     @Override
