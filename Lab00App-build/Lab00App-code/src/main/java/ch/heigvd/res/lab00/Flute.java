@@ -7,7 +7,7 @@ public class Flute implements IInstrument {
 
     @Override
     public String play() {
-        return "Tuuuut";
+        return "trilili";
     }
 
     @Override
