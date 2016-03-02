@@ -8,7 +8,7 @@ public class Flute implements IInstrument{
       return new Trumpet().getSoundVolume() - 1;
    }
    public String play(){
-      return "DoReMiFaSol";
+      return "trilili";
    }
    
    public String getColor(){
