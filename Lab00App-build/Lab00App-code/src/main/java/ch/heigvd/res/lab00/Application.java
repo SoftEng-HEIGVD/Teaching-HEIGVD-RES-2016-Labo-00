@@ -29,7 +29,12 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
 
 }
+
+
+
+
+
