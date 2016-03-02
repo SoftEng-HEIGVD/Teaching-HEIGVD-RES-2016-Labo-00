@@ -33,35 +33,3 @@ public class Application {
   }
 
 }
-
-interface IInstrument{
-    String play();
-    int getSoundVolume();
-    String getColor();
-}
-
-class Trumpet implements IInstrument{
-    public String play(){
-        return "pouet";
-    }
-    
-    public int getSoundVolume(){
-        return 5;
-    }
-    
-    public String getColor(){
-        return "golden";
-    }
-}
-
-class Flute implements IInstrument{
-    public String play(){
-        return "pouet";
-    }
-    public int getSoundVolume(){
-        return 2;
-    }
-    public String getColor(){
-        return "grey";
-    }
-}
