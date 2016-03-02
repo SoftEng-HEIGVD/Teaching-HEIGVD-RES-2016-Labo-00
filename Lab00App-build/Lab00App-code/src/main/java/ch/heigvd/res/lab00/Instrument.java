@@ -16,7 +16,7 @@ class Trumpet implements IInstrument {
 }
 
 class Flute implements IInstrument {
-  public String play() { return "fuii"; }
+  public String play() { return "trilili"; }
   public String getColor() { return "wood-like"; }
   public int getSoundVolume() { return 50; }
 }
