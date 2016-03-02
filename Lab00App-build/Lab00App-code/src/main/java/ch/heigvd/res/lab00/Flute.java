@@ -9,7 +9,7 @@ public class Flute implements IInstrument {
     private int soundVolume;
 
     public Flute() {
-        sound = "plouc";
+        sound = "trilili";
         color = "black";
         soundVolume = 10;
     }
