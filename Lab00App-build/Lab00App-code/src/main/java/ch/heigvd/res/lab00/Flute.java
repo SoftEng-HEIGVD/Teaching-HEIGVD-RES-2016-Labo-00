@@ -7,4 +7,8 @@ public class Flute extends IInstrument {
     public Flute(){
         super(0,"blue");
     }
+
+    public String play(){
+        return "trilili";
+    }
 }
