@@ -10,7 +10,7 @@ public class Flute implements IInstrument {
     }
 
     public String play() {
-        return "pfiou";
+        return "trilili";
     }
 
     public String getColor() {
