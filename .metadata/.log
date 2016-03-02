@@ -60,3 +60,16 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-02 16:28:21.317 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_CH
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-03-02 16:28:32.715
+!MESSAGE Invalid ZIP archive: Lab00App-code/target/Lab00App-code-1.0-SNAPSHOT.jar [in Lab00App-build]
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-03-02 16:28:32.767
+!MESSAGE Invalid ZIP archive: Lab00App-tests/target/Lab00App-tests-1.0-SNAPSHOT.jar [in Lab00App-build]

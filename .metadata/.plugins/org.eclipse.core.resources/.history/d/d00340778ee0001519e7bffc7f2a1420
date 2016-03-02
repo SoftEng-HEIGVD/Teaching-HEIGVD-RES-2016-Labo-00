@@ -1,0 +1,15 @@
+package ch.heigvd.res.lab00;
+
+public class Orchestra implements IInstrument {
+	public Orchestra(){
+		}
+	public String play(){
+		return "pouet";
+		}
+	public int getSoundVolume(){
+		return 10;
+	}
+	public String getColor(){
+		return "golden";
+	}
+}
