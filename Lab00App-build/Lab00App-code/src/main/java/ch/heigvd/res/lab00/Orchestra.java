@@ -15,7 +15,7 @@ public class Orchestra {
     LinkedList<IInstrument> instruments;
     
     public Orchestra(){
-        instruments = new LinkedList<IInstrument>();
+        instruments = new LinkedList();
     }
     public int getNumberOfInstruments(){
         return instruments.size();
@@ -24,10 +24,10 @@ public class Orchestra {
         instruments.add(instrument);
     }
     public LinkedList<String> makeMusic(){
-        LinkedList<String> l = new LinkedList<String>();
-        for(IInstrument i : instruments){
+        LinkedList<String> l = new LinkedList();
+        instruments.stream().forEach((i) -> {
             l.add(i.play());
-        }
+        });
         return l;
     }
 }
