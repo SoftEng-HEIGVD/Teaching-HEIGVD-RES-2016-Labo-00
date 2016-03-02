@@ -9,25 +9,23 @@ package ch.heigvd.res.lab00;
  *
  * @author Thomas
  */
-
-
-class Trumpet implements IInstrument {
+public class Flute implements IInstrument {
     
     private String sound;
-    private int trumpetVolume;
+    private int fluteVolume;
     private String color;
     
-    public Trumpet(){
-        this.sound = "pouet";
-        this.trumpetVolume = 10;
-        this.color = "golden";
+    public Flute(){
+        this.sound = "trilili";
+        this.fluteVolume = 5;
+        this.color = "black";
     }
     public String play(){
         return sound;
     }
     
     public int getSoundVolume() {
-        return trumpetVolume;
+        return fluteVolume;
     }
     
     public String getColor() {
@@ -35,5 +33,3 @@ class Trumpet implements IInstrument {
     }
     
 }
-
-
