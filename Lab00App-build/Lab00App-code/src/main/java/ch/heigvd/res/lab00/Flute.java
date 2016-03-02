@@ -13,7 +13,7 @@ public class Flute implements IInstrument {
     
     public Flute()
     {
-        sound = "tutu";
+        sound = "trilili";
         volume = 2;
         color = "brown";
     }
