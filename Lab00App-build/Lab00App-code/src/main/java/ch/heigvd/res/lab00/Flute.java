@@ -1,5 +1,5 @@
 /*
- * RES Labo00
+ * RES Labo00 - fb-orchestra
  */
 package ch.heigvd.res.lab00;
 
@@ -10,7 +10,7 @@ package ch.heigvd.res.lab00;
 public class Flute implements IInstrument{
     
     public String play(){
-        return "tuut";
+        return "trilili";
     }
     
     public int getSoundVolume(){
