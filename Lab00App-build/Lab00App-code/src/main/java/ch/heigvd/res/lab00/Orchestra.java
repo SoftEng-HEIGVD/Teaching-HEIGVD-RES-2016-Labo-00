@@ -1,8 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ -----------------------------------------------------------------------------------
+ Laboratoire : 00
+ Fichier     : Orchestra.java
+ Auteur(s)   : Guillaume Serneels
+ Date        : 04.03.2016
+ But         : Implémentation de l'orchestre
+ -----------------------------------------------------------------------------------
+*/
 package ch.heigvd.res.lab00;
 
 import java.util.LinkedList;
@@ -20,10 +24,7 @@ public class Orchestra {
         instruments = new LinkedList();
     }
     int getNumberOfInstruments(){
-        int cpt = 0;
-        for(IInstrument i : instruments)
-            cpt++;
-        return cpt;
+        return instruments.size();
     }
     void addInstrument(IInstrument i){
         instruments.add(i);
