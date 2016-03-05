@@ -6,18 +6,18 @@ package ch.heigvd.res.lab00;
 public class Trumpet implements IInstrument {
     private String sound;
     private String color;
-    private int soundsLevel;
+    private int soundLevel;
 
     public Trumpet() {
         sound = "pouet";
         color = "golden";
-        soundsLevel = 20;
+        soundLevel = 20;
     }
 
-    /*public Trumpet(String sound, String color, int soundsLevel) {
+    /*public Trumpet(String sound, String color, int soundLevel) {
         this.sound = sound;
         this.color = color;
-        this.soundsLevel = soundsLevel;
+        this.soundLevel = soundLevel;
     }*/
 
     public String play() {
@@ -25,7 +25,7 @@ public class Trumpet implements IInstrument {
     }
 
     public int getSoundVolume() {
-        return soundsLevel;
+        return soundLevel;
     }
 
     public String getColor() {

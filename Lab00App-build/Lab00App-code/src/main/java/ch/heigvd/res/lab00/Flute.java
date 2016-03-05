@@ -6,18 +6,18 @@ package ch.heigvd.res.lab00;
 public class Flute implements IInstrument {
     private String sound;
     private String color;
-    private int soundsLevel;
+    private int soundLevel;
 
     public Flute() {
         sound = "trilili";
         color = "black";
-        soundsLevel = 10;
+        soundLevel = 10;
     }
 
-    /*public Flute(String sound, String color, int soundsLevel) {
+    /*public Flute(String sound, String color, int soundLevel) {
         this.sound = sound;
         this.color = color;
-        this.soundsLevel = soundsLevel;
+        this.soundLevel = soundLevel;
     }*/
 
     public String play() {
@@ -25,7 +25,7 @@ public class Flute implements IInstrument {
     }
 
     public int getSoundVolume() {
-        return soundsLevel;
+        return soundLevel;
     }
 
     public String getColor() {
