@@ -7,29 +7,27 @@ import java.util.List;
  * Created by sebbos on 02.03.2016.
  */
 public class Orchestra {
-    private int numberOfInstruments;
-    private LinkedList<IInstrument> listOfInstruments;
+    private LinkedList<IInstrument> instrumentsList;
 
     public Orchestra() {
-        listOfInstruments = new LinkedList<>();
+        instrumentsList = new LinkedList<>();
     }
 
     public int getNumberOfInstruments() {
-        return numberOfInstruments;
+        return instrumentsList.size();
     }
 
     public void addInstrument(IInstrument instrument) {
-        numberOfInstruments++;
-        listOfInstruments.add(instrument);
+        instrumentsList.add(instrument);
     }
 
     public List<String> makeMusic() {
-        List<String> listOfSounds = new LinkedList<>();
+        List<String> soundsList = new LinkedList<>();
 
-        for (IInstrument instr : listOfInstruments) {
-            listOfSounds.add(instr.play());
+        for (IInstrument inst : instrumentsList) {
+            soundsList.add(inst.play());
         }
 
-        return listOfSounds;
+        return soundsList;
     }
 }
