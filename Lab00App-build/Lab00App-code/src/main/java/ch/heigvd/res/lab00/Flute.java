@@ -8,7 +8,7 @@ public class Flute implements IInstrument {
 
     @Override
     public String play() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return "trilili";
     }
 
     @Override
