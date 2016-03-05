@@ -9,20 +9,19 @@ import java.util.List;
  * @author mohammadhossein
  */
 public class Orchestra {
-    ArrayList ilstrumentListe = new ArrayList();  
+    ArrayList<IInstrument> ilstrumentListe = new ArrayList<IInstrument>();  
     
     int getNumberOfInstruments(){
         return ilstrumentListe.size();
     }
     void addInstrument (IInstrument iInstrument){
-        ilstrumentListe.add(ilstrumentListe);
+        ilstrumentListe.add(iInstrument);
     }
     
     List<String> makeMusic() {
         List list = new ArrayList(); 
-        list.add("trilili");
-        list.add("pouet");
-        list.add("trilili");
+        for(IInstrument i : ilstrumentListe)
+            list.add(i.play());
         return list;
     }
 }

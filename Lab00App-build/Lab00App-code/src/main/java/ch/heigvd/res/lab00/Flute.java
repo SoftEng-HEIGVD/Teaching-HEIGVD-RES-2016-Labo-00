@@ -13,7 +13,7 @@ public class Flute implements IInstrument{
 
     @Override
     public String play(){
-        return "soundFlute";
+        return "trilili";
     } 
     @Override
     public String getColor(){
