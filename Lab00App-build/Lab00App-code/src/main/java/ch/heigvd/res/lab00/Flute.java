@@ -19,7 +19,7 @@ public class Flute implements IInstrument {
    }
    
    public String play(){
-      return "fziiii";
+      return "trilili";
    }
    public int getSoundVolume(){
       return 3;
