@@ -52,5 +52,4 @@ public class TrumpetTest {
     Assert.assertEquals("golden", color);
   }
 
- 
 }
