@@ -29,7 +29,70 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
 
+}
+
+
+
+interface IInstrument {
+    
+    String play();
+    int getSoundVolume();
+    String getColor();
+}
+
+class Trumpet implements IInstrument {
+    
+    String sound;
+    int volume;
+    String color;
+    
+    public Trumpet() {
+        
+    }
+    
+    @Override
+    public String play() {
+        sound = "pouet";
+        return sound;
+    }
+    
+    @Override
+    public int getSoundVolume() {
+        volume = 100;
+        return volume;
+    }
+    
+    @Override
+    public String getColor() {
+        color = "golden";
+        return color;
+    }
+}
+
+class Flute implements IInstrument {
+    
+    int volume;
+    
+    public Flute() {
+        
+    }
+
+    @Override
+    public String play() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int getSoundVolume() {
+        volume = 10;
+        return volume;
+    }
+
+    @Override
+    public String getColor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
