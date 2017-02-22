@@ -20,7 +20,7 @@
 
 ### Task 2 : Setup the environment
 
-In this lab, we will start by installing some of the tools that we will be using during the semester. 
+In this lab, we will start by installing some of the tools that we will be using during the semester.
 
 First of all, you need to understand that you have different ways to do the labs and to setup your work environment:
 
@@ -144,7 +144,7 @@ From what we have seen over the last few years, many students are not familiar o
 
 **You do not have to be a shell guru**. Even with a couple of commands, you will quickly see the benefits. **Please, please** take the time to learn how to use this crucial tool.
 
-If you are on **Windows**, then you have several options, including PowerShell, Gygwin, Git Bash or Babun, which seems to be gaining traction. Some of the options are described [here](https://macyves.wordpress.com/2014/09/18/hipsterising-windows-cygwin-vs-babun-vs-git-bash-vs-powershell-the-onion-scale/). To be honest, I am *not* a Windows user, so it is difficult for me to make a recommendation and you will have to make your own experiments. But if you have not used any of these tools, take the time to pick one and learn how to use it. Otherwise, you will loose an awful lot of time and will not be able to do some of the labs (this year and next year). 
+If you are on **Windows**, then you have several options, including PowerShell, Cygwin, Git Bash or Babun, which seems to be gaining traction. Some of the options are described [here](https://macyves.wordpress.com/2014/09/18/hipsterising-windows-cygwin-vs-babun-vs-git-bash-vs-powershell-the-onion-scale/). To be honest, I am *not* a Windows user, so it is difficult for me to make a recommendation and you will have to make your own experiments. But if you have not used any of these tools, take the time to pick one and learn how to use it. Otherwise, you will loose an awful lot of time and will not be able to do some of the labs (this year and next year).
 
 #### Check that you can do a tail
 
@@ -214,15 +214,15 @@ $ mvn clean install
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
-[INFO] 
+[INFO]
 [INFO] Lab00App-code
 [INFO] Lab00App-tests
 [INFO] Lab00App-build
-[INFO]                                                                         
+[INFO]
 [INFO] ------------------------------------------------------------------------
 [INFO] Building Lab00App-code 1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-[INFO] 
+[INFO]
 ...
 ```
 
@@ -245,7 +245,7 @@ java.lang.AssertionError: expected:<42> but was:<80>
 
 Results :
 
-Failed tests: 
+Failed tests:
   ApplicationTest.thereShouldBeAMethodToAddIntegers:53 expected:<42> but was:<80>
 
 Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
@@ -254,7 +254,7 @@ Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
 Very interesting: we see that 5 tests have been successfully run and that one has failed. We see that there seems to be a bug in the method that computes the sum between two integers... Indeed, if we look at the code, we see that the code of the `add(int a, int b)` method is wrong:
 
 ```
-$ cat Lab00App-code/src/main/java/ch/heigvd/res/lab00/Application.java 
+$ cat Lab00App-code/src/main/java/ch/heigvd/res/lab00/Application.java
 package ch.heigvd.res.lab00;
 
 /**
@@ -262,11 +262,11 @@ package ch.heigvd.res.lab00;
  * cycle. All methods used in the JUnit test are defined, so the test class will
  * compile. There is a bug in the add method, so one of the tests is expected
  * to fail.
- * 
+ *
  * If you look at the class named ch.heigvd.res.lab00.ApplicationTest, you will
  * find an executable specification for this class. The test methods specify
  * the expected behavior for this class.
- * 
+ *
  * @author Olivier Liechti
  */
 public class Application {
@@ -306,7 +306,7 @@ Results :
 Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 ```
 
-Sweet. Our implementation now is compliant with the executable specification. Well, that's because some unit tests have been commented out. Open the `TrumpetTest.java` file and uncomment the unit tests. Note that if you try to build the project now, it will fail. The reason is that the tests specify that you should have created interfaces and classes. You have not done that yet, and it is your assignment in this lab. 
+Sweet. Our implementation now is compliant with the executable specification. Well, that's because some unit tests have been commented out. Open the `TrumpetTest.java` file and uncomment the unit tests. Note that if you try to build the project now, it will fail. The reason is that the tests specify that you should have created interfaces and classes. You have not done that yet, and it is your assignment in this lab.
 
 If you read the name of the test methods, you will see that they are a way to specify the expected behavior of your application (that is why we speak of executable specification):
 
@@ -336,7 +336,7 @@ What we have done in the terminal can also be done directly in Netbeans:
 
 - righ-click on the Lab00App-build node and select *Test*
 
-You will see the following output in the IDE tabs. In the *Output* tab, you will see the same output that was generated when invoking maven on the command line. In the *Test Results* tab, you will see a user friendly visual representation of the test results. 
+You will see the following output in the IDE tabs. In the *Output* tab, you will see the same output that was generated when invoking maven on the command line. In the *Test Results* tab, you will see a user friendly visual representation of the test results.
 
 **After cloning the repo, you see 4 green tests and 1 red test. When you have finished the lab, you should see 10 green tests.**
 
@@ -387,9 +387,9 @@ In our workflow, we will most likely **not** accept your pull requests. However,
 
 #### If the authors of the original repository make updates, how do I get them?
 
-Let us imagine that we find a bug somewhere in the **SoftEng-HEIGVD/Teaching-HEIGVD-RES-2016-Labo1** repo. We want to fix it and make sure that all students can get the fix in their own fork. How do we do that? 
+Let us imagine that we find a bug somewhere in the **SoftEng-HEIGVD/Teaching-HEIGVD-RES-2016-Labo1** repo. We want to fix it and make sure that all students can get the fix in their own fork. How do we do that?
 
-This operation cannot be done via the Web UI, but it is fairly easy and well documented. First, you have to [configure an upstream server](https://help.github.com/articles/configuring-a-remote-for-a-fork/). Then, you can [sync](https://help.github.com/articles/syncing-a-fork/) your local clone with the upstream server. Finally, you can [push](https://help.github.com/articles/pushing-to-a-remote/) the update to your fork. 
+This operation cannot be done via the Web UI, but it is fairly easy and well documented. First, you have to [configure an upstream server](https://help.github.com/articles/configuring-a-remote-for-a-fork/). Then, you can [sync](https://help.github.com/articles/syncing-a-fork/) your local clone with the upstream server. Finally, you can [push](https://help.github.com/articles/pushing-to-a-remote/) the update to your fork.
 
 ![image](./diagrams/upstream.png)
 
