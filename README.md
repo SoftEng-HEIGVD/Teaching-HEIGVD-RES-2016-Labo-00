@@ -186,7 +186,7 @@ If you don't know how to create a fork on GitHub, or how to clone your fork, tak
 
 ### Task : Understand the project structure
 
-If you have followed the previous instructions, then you should now have a clone of your fork on your machine, in a directory named `Teaching-HEIGVD-RES-2015-Labo1`. Let's check what is inside:
+If you have followed the previous instructions, then you should now have a clone of your fork on your machine, in a directory named `Teaching-HEIGVD-RES-2017-Labo-00`. Let's check what is inside:
 
 ![image](./diagrams/project-structure.png)
 
