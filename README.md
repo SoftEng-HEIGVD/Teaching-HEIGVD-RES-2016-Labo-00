@@ -204,7 +204,7 @@ If you look carefully, you will see that there are 3 files named `pom.xml` in th
 Before opening Netbeans, let's build our software from the command line. To do that, we have to move into the top-level project, where the first `pom.xml` file is located and type the following command: `mvn clean install`. By doing that, we are asking maven to clean the workspace and to start the build process. You will see a long output on the console, starting with this:
 
 ```
-$ cd Teaching-HEIGVD-RES-2015-Labo1/
+$ cd Teaching-HEIGVD-RES-2017-Labo-00/
 $ ls
 LICENSE		Lab00App-build	README.md
 $ cd Lab00App-build/
