@@ -1,7 +1,5 @@
 package ch.heigvd.res.lab00;
 
-import ch.heigvd.res.lab00.IInstrument;
-
 public class Flute implements IInstrument {
     public Flute() {}
 
