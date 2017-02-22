@@ -1,19 +1,22 @@
 package ch.heigvd.res.lab00;
 
+/**
+* Flute, another instrument
+* 
+* @author Lawrence Stalder
+*/
 public class Flute implements IInstrument {
-	Trumpet() {
-		volume = 5;
-	}
-	
+	private final int VOLUME = 5;
+
 	public String play() {
-		return sound;
+		return "";
 	}
 
 	public int getSoundVolume() {
-		return volume;
+		return VOLUME;
 	}
 
 	public String getColor() {
-		return color;
+		return "";
 	}
 }

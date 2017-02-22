@@ -1,21 +1,24 @@
 package ch.heigvd.res.lab00;
 
+/**
+* This is a Trumpet, implements IInstrument
+* 
+* @author Lawrence Stalder
+*/
 public class Trumpet implements IInstrument {
-	Trumpet() {
-		color = "golden";
-		sound = "pouet";
-		volume = 10;
-	}
+	private final String COLOR = "golden";
+	private final String SOUND = "pouet";
+	private final int VOLUME = 10;
 	
 	public String play() {
-		return sound;
+		return SOUND;
 	}
 
 	public int getSoundVolume() {
-		return volume;
+		return VOLUME;
 	}
 
 	public String getColor() {
-		return color;
+		return COLOR;
 	}
 }
