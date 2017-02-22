@@ -1,5 +1,6 @@
 package ch.heigvd.res.lab00;
 
+import ch.heigvd.res.lab00.*;
 import org.junit.Assert;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
@@ -15,7 +16,6 @@ import org.junit.Test;
  */
 public class TrumpetTest {
 
-  /*
   @Test
   public void thereShouldBeAnIInstrumentInterfaceAndATrumpetClass() {
     IInstrument trumpet = new Trumpet();
@@ -51,6 +51,4 @@ public class TrumpetTest {
     String color = trumpet.getColor();
     Assert.assertEquals("golden", color);
   }
-  */
- 
 }
