@@ -29,7 +29,41 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
+}
 
+class IInstrument{
+    String sound, color;
+    int volume;
+
+    IInstrument(String sound, int volume, String color) {
+        this.sound = sound;
+        this.volume = volume;
+        this.color = color;
+    }
+    
+    public String play(){
+        return sound;
+    }
+    
+    public int getSoundVolume(){
+        return volume;
+    }
+    
+    public String getColor(){
+        return color;
+    }
+}
+
+class Trumpet extends IInstrument{
+    public Trumpet(){
+        super("pouet", 100, "golden");
+    }
+}
+
+class Flute extends IInstrument{
+    public Flute(){
+        super("sonFlute", 50, "grey");
+    }
 }
