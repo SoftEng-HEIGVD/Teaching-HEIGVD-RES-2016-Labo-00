@@ -5,6 +5,7 @@ package ch.heigvd.res.lab00;
  * implementation de 2 classes et une interface IInstrument permettant de passer les tests unitaires
  * @author Jérémie Zanone
  */
+
 interface IInstrument{
 
 	public int getSoundVolume();
