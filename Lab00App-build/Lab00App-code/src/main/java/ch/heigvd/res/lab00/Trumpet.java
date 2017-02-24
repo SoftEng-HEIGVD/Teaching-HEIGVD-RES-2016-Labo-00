@@ -12,24 +12,17 @@ package ch.heigvd.res.lab00;
  * 
  * @author Olivier Liechti
  */
-public class Application {
+public class Trumpet implements IInstrument {
 
-    private String message;
-
-    public Application() {
-        this("HEIG-VD rocks!");
+    public String play() {
+        return "pouet";
     }
 
-    public Application(String message) {
-        this.message = message;
+    public int getSoundVolume() {
+        return 2;
     }
 
-    public String getMessage() {
-        return message;
+    public String getColor() {
+        return "golden";
     }
-
-    public int add(int a, int b) {
-        return a + b;
-    }
-
 }
