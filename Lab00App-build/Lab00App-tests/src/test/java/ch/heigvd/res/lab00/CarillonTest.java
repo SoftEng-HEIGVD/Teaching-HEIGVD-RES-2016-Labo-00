@@ -5,7 +5,6 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
 /** Test class for IInstrument Carillon
- * @author Sydney Hauke
  */
 
 public class CarillonTest {
