@@ -4,12 +4,12 @@ package ch.heigvd.res.lab00;
  * @author Loan Lassalle
  */
  
- interface IInstrument
- {
+interface IInstrument
+{
     String play();
     int getSoundVolume();
     String getColor();
- }
+}
  
 public class Trumpet implements IInstrument
 {
