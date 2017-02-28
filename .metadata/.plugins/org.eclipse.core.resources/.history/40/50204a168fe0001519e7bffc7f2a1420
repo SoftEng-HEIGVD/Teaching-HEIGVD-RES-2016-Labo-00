@@ -1,0 +1,16 @@
+package ch.heigvd.res.lab00;
+
+import java.util.ArrayList;
+
+public class Orchestra {
+	private
+		ArrayList<IInstrument> listInst;
+	public Orchestra(){
+		}
+	public int getNumberOfInstruments(){
+		return listInst.size();
+		}
+	public void addInstrument(IInstrument i){
+		listInst.add(i);
+	}
+}

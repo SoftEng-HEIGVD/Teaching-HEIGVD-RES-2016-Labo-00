@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Lab00App-code/src/main/java"/>
+	<classpathentry kind="src" path="Lab00App-tests/src/test/java"/>
+	<classpathentry kind="lib" path="Lab00App-code/target/Lab00App-code-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="Lab00App-tests/target/Lab00App-tests-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Lab00App-code/bin"/>
+</classpath>

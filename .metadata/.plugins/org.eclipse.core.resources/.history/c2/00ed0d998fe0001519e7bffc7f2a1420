@@ -1,0 +1,24 @@
+package ch.heigvd.res.lab00;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Orchestra {
+	private
+		ArrayList<IInstrument> listInst;
+	public Orchestra(){
+		}
+	public int getNumberOfInstruments(){
+		return listInst.size();
+		}
+	public void addInstrument(IInstrument i){
+		listInst.add(i);
+	}
+	public List<String> makeMusic(){
+		List<String> list;
+		for(IInstrument i : listInst){
+			list.add(i.play());
+		}
+		return list;
+	}
+}

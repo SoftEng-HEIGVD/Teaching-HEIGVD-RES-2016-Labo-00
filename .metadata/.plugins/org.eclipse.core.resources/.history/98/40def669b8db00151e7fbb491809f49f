@@ -1,0 +1,10 @@
+package ch.heigvd.res.lab00;
+
+public class Trumpet implements IInstrument {
+	public Trumpet(){
+		
+		}
+	public String play(){
+		
+		}
+}

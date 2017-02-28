@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Trumpet.java&apos; to &apos;Lab00App-code/src/main/java/ch.heigvd.res.lab00&apos;&#x0D;&#x0A;- Original project: &apos;Lab00App-code&apos;&#x0D;&#x0A;- Destination element: &apos;Lab00App-code/src/main/java/ch.heigvd.res.lab00&apos;&#x0D;&#x0A;- Original element: &apos;ch.heigvd.res.lab00.Trumpet.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;ch.heigvd.res.lab00" element1="/src\/main\/java&lt;ch.heigvd.res.lab00{Trumpet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1456933232643" units="1" version="1.0"/>
+</session>
