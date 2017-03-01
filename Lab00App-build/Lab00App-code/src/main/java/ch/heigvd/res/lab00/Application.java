@@ -43,13 +43,13 @@ interface IInstrument {
     String getColor();
 }
 
-class Trumpet implements IInstrument {
+class Bow implements IInstrument {
     
     String sound;
     int volume;
     String color;
     
-    public Trumpet() {
+    public Bow() {
         
     }
     
@@ -69,30 +69,5 @@ class Trumpet implements IInstrument {
     public String getColor() {
         color = "golden";
         return color;
-    }
-}
-
-class Flute implements IInstrument {
-    
-    int volume;
-    
-    public Flute() {
-        
-    }
-
-    @Override
-    public String play() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getSoundVolume() {
-        volume = 10;
-        return volume;
-    }
-
-    @Override
-    public String getColor() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
