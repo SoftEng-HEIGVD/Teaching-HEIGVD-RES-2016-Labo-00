@@ -2,6 +2,8 @@
 test-results.json
 
 *.class
+*.idea
+*.iml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -15,3 +17,7 @@ test-results.json
 hs_err_pid*
 /Lab00App-build/Lab00App-code/target/
 /Lab00App-build/Lab00App-tests/target/
+
+# IDE
+.idea
+*.iml
