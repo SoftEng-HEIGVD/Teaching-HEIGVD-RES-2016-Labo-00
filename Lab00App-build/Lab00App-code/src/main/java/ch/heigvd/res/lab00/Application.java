@@ -12,6 +12,7 @@ package ch.heigvd.res.lab00;
  * 
  * @author Olivier Liechti
  */
+
 public class Application {
 
   private String message;
@@ -29,7 +30,12 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
-
+  
 }
+
+
+
+   
+   
