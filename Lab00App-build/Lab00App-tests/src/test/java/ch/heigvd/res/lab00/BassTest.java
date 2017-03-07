@@ -23,9 +23,9 @@ public class BassTest {
 	}
 	
 	@Test
-	public void bassShouldMakeBoumBoum {
+	public void bassShouldMakeBoumBoum() {
 		IInstrument bass = new Bass();
 		String sound = bass.play();
-		Assert.assertEquals(sound, "boum boum");
+		assertEquals(sound, "boum boum");
 	}
 }

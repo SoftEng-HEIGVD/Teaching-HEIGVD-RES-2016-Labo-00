@@ -8,13 +8,13 @@ import org.junit.Test;
  */
 public class CowbellTest {
     @Test
-    public void thereShouldBeACowbellClass(){
+    public void thereShouldBeACowbellClass() {
         IInstrument cowbell = new Cowbell();
         Assert.assertNotNull(cowbell);
     }
 
     @Test
-    public void aCowbellShouldSoundDingDangDong{
+    public void aCowbellShouldSoundDingDangDong(){
         IInstrument cowbell = new Cowbell();
         String sound = cowbell.getSound();
         Assert.assertEquals(sound, "DingDangDong");
