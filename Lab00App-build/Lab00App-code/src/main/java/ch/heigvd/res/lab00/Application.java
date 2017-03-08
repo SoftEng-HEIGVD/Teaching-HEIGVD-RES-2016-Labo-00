@@ -29,7 +29,47 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
 
+}
+
+interface IInstrument{
+    String play();
+    int getSoundVolume();
+    String getColor();
+}
+
+class Trumpet implements IInstrument{
+    @Override
+    public String play(){
+        return "pouet";
+    }
+    
+    @Override
+    public int getSoundVolume(){
+        return 5;
+    }
+    
+    @Override
+    public String getColor(){
+        return "golden";
+    }
+}
+
+class Flute implements IInstrument{
+    @Override
+    public String play(){
+        return "fioup";
+    }
+    
+    @Override
+    public int getSoundVolume(){
+        return 2;
+    }
+    
+    @Override
+    public String getColor(){
+        return "brown";
+    }
 }
