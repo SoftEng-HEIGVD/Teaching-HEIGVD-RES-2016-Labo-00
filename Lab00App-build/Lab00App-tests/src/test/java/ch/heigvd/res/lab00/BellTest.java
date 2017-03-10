@@ -1,4 +1,4 @@
-package ch.heigvd.res.labo00;
+package ch.heigvd.res.lab00;
 
 import org.junit.Assert;
 import static org.junit.Assert.assertNotNull;
