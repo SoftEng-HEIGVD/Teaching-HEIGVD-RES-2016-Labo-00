@@ -12,6 +12,43 @@ package ch.heigvd.res.lab00;
  * 
  * @author Olivier Liechti
  */
+interface IInstrument {
+   String play();
+   int getSoundVolume();
+   String getColor();
+   
+}
+
+class Trumpet implements IInstrument {
+   
+   @Override
+   public String play() {
+      return "pouet";
+   }
+   
+   public int getSoundVolume() {
+      return 2;
+   }
+   
+   public String getColor() {
+      return "golden";
+   }
+}
+
+class Flute implements IInstrument {
+   public int getSoundVolume() {
+      return 1;
+   }
+   
+   public String getColor() {
+      return "black";
+   }
+   
+   public String play() {
+      return "tuuuuuut";
+   }
+}
+
 public class Application {
 
   private String message;
@@ -29,7 +66,7 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
 
 }
