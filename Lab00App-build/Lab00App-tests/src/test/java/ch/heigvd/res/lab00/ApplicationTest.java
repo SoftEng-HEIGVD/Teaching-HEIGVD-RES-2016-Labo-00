@@ -52,5 +52,4 @@ public class ApplicationTest {
     int sum = application.add(40, 2);
     assertEquals(42, sum);
   }
-  
 }
