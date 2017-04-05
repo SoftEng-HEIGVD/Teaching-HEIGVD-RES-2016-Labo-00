@@ -15,3 +15,6 @@ test-results.json
 hs_err_pid*
 /Lab00App-build/Lab00App-code/target/
 /Lab00App-build/Lab00App-tests/target/
+Lab00App-code/src/main/main.iml
+Lab00App-tests/src/test/test.iml
+.idea/
