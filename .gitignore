@@ -14,4 +14,9 @@ test-results.json
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /Lab00App-build/Lab00App-code/target/
+/Lab00App-build/Lab00App-tests/Lab00App-tests.iml
+/Lab00App-build/Lab00App-build.iml
+/Lab00App-build/Lab00App-tests/target
+/Lab00App-build/Lab00App-code/target
+/Lab00App-build/Lab00App-code/Lab00App-code.iml
 /Lab00App-build/Lab00App-tests/target/
